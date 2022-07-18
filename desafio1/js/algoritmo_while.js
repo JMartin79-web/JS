@@ -7,6 +7,7 @@ let entrada = prompt("Escribí ESC")
 let i = 0
 
 while(entrada != "ESC"){
-    prompt("No escribiste ESC. Escribilo o nunca te voy a dejar de molestar")
-    console.log("Este es el intento n°" + (i++))
+    entrada = prompt("No escribiste ESC. Escribilo o nunca te voy a dejar de molestar")
+    console.log("Este es el intento n°" + (i++) + ". El usuario escribió " + entrada)
 }
+
